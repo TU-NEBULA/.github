@@ -65,5 +65,121 @@
 <h2>ERD</h2>
 <h2>API</h2>
 <h2>How To Start</h2>
+  
+### Clone Repository
+  docker repository를 클론하고 서브모듈을 추가합니다.
+
+      git clone https: &&
+      git submodule init &&
+      git submodule update
+    
+
+### ENV Setting In The MVStudio-Docker Folder
+  env 환경 파일을 작성해 줍니다. 빈 칸도 직접 채웁니다.
+
+  - 파일명.env
+    
+```
+    # API KEY
+    _URL=
+
+  ```
+
+### See Result
+아래 명령어로 Docker를 실행하고 [http://localhost](http://localhost)로 접속합니다.
+```
+    cd Backend && 
+    docker-compose -f docker-compose.yaml up -d --build
+```
+
+
+<br /> 
+<!-- <h2>📂 Directory Structure</h2>
+
+<br />
+<br /> -->
 <h2>Member</h2>
+
+<table width="1000">
+    <thead>
+    </thead>
+    <tbody>
+    <tr>
+        <th>Pictures</th>
+         <td width="100" align="center">
+            <a href="https://github.com/Ahnnakyung">
+                <img src="https://ifh.cc/g/zCCxjZ.jpg" width="80" height="80">
+            </a>
+        </td>
+        <td width="100" align="center">
+            <a href="https://github.com/Ahnnakyung">
+                <img src="https://ifh.cc/g/zCCxjZ.jpg" width="80" height="80">
+            </a>
+        </td>
+        <td width="100" align="center">
+            <a href="https://github.com/Ahnnakyung">
+                <img src="https://ifh.cc/g/zCCxjZ.jpg" width="80" height="80">
+            </a>
+        </td>
+        <td width="100" align="center">
+            <a href="https://github.com/Ahnnakyung">
+                <img src="https://ifh.cc/g/zCCxjZ.jpg" width="80" height="80">
+            </a>
+        </td>
+      <td width="100" align="center">
+            <a href="https://github.com/Ahnnakyung">
+                <img src="https://ifh.cc/g/zCCxjZ.jpg" width="80" height="80">
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <th>Name</th>
+        <td width="100" align="center">최원준</td>
+        <td width="100" align="center">민정준</td>
+        <td width="100" align="center">황승기</td>
+        <td width="100" align="center">임광수</td>
+        <td width="100" align="center">안나경</td>
+    </tr>
+    <tr>
+        <th>Position</th>
+        <td width="100" align="center">Leader<br>Backend</td>
+        <td width="100" align="center">Backend</td>
+        <td width="100" align="center">Backend</td>
+        <td width="100" align="center">Frontend</td>
+        <td width="100" align="center">PM<br>Design</td>
+    </tr>
+    <tr>
+        <th>GitHub</th>
+        <td width="100" align="center">
+            <a href="https://github.com/wonjun0120">
+              <p>@wonjun0120</p>
+            </a>
+        </td>
+        <td width="100" align="center">
+            <a href="https://github.com/m3k0813">
+              <p>@m3k0813</p>
+            </a>
+        </td>
+        <td width="100" align="center">
+            <a href="https://github.com/Seungkiii">
+              <p>@Seungkiii</p>
+            </a>
+        </td>
+        <td width="100" align="center">
+            <a href="https://github.com/gs0428">
+              <p>@gs0428</p>
+            </a>
+        </td>
+        <td width="100" align="center">
+            <a href="https://github.com/Ahnnakyung">
+              <p>@Ahnnakyung</p>
+            </a>
+        </td>
+     </tr>
+    </tbody>
+</table>
+
+<br />
+<br />
+
 <div />
